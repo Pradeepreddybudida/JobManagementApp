@@ -1,0 +1,30 @@
+.application-form {
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+  
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+  
+    button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    button:disabled {
+      background-color: #ddd;
+      cursor: not-allowed;
+    }
+  }
+  

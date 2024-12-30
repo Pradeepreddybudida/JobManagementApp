@@ -1,0 +1,12 @@
+
+<div class="dashboard">
+    <h2>Employer Dashboard</h2>
+    <div *ngFor="let application of applications">
+      <p><strong>Applicant:</strong> {{ application.name }}</p>
+      <p><strong>Job:</strong> {{ application.job }}</p>
+      <p><strong>Status:</strong> {{ application.status }}</p>
+      <button (click)="updateStatus(application, 'Interview Scheduled')">Schedule Interview</button>
+      <button (click)="updateStatus(application, 'Rejected')">Reject</button>
+    </div>
+  </div>
+  

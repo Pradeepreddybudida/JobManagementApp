@@ -1,0 +1,26 @@
+.job-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .job-card h3 {
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  .job-card button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .job-card button:hover {
+    background-color: #0056b3;
+  }
+  

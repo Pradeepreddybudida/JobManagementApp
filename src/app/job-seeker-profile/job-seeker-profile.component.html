@@ -1,0 +1,63 @@
+<div class="profile-container">
+    <h2 class="dashboard-title">Job Seeker Dashboard</h2>
+    <button class="btn btn-primary" routerLink="/job-listings">View Available Jobs</button>
+  
+    <!-- Profile Details Display -->
+    <div class="profile-details">
+      <h3>Profile Information</h3>
+      <div class="profile-item">
+        <strong>Name:</strong> {{ name }}
+      </div>
+      <div class="profile-item">
+        <strong>Contact:</strong> {{ contact }}
+      </div>
+      <div class="profile-item">
+        <strong>Experience:</strong> {{ experience }}
+      </div>
+      <div class="profile-item">
+        <strong>Education:</strong> {{ education }}
+      </div>
+      <div class="profile-item">
+        <strong>Skills:</strong> {{ skills }}
+      </div>
+    </div>
+  
+    <!-- Profile Update Form -->
+    <div class="profile-section">
+      <h3>Update Profile</h3>
+      <form (ngSubmit)="updateProfile()">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input [(ngModel)]="name" name="name" id="name" required />
+        </div>
+  
+        <div class="input-group">
+          <label for="contact">Contact</label>
+          <input [(ngModel)]="contact" name="contact" id="contact" required />
+        </div>
+  
+        <div class="input-group">
+          <label for="experience">Experience</label>
+          <input [(ngModel)]="experience" name="experience" id="experience" required />
+        </div>
+  
+        <div class="input-group">
+          <label for="education">Education</label>
+          <input [(ngModel)]="education" name="education" id="education" required />
+        </div>
+  
+        <div class="input-group">
+          <label for="skills">Skills</label>
+          <input [(ngModel)]="skills" name="skills" id="skills" required />
+        </div>
+  
+        <button class="btn btn-submit" type="submit">Update Profile</button>
+      </form>
+    </div>
+  
+    <!-- Add navigation to TrackStatus page -->
+    <div class="track-status-btn">
+      <button class="btn btn-secondary" routerLink="/track-status">Track Job Status</button>
+    </div>
+  </div>
+  

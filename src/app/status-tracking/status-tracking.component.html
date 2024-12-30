@@ -1,0 +1,19 @@
+
+<div class="status-tracking">
+    <h2>Application Status</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Job</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let application of applications">
+          <td>{{ application.job }}</td>
+          <td [ngClass]="application.status | lowercase">{{ application.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

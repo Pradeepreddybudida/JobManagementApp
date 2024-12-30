@@ -1,0 +1,61 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Tech Corp",
+      "location": "Remote",
+      "description": "Develop responsive UIs."
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "company": "Innovate Labs",
+      "location": "NY",
+      "description": "Design backend systems."
+    }
+  ],
+  "applications": [
+    {
+      "job": "Frontend Developer",
+      "status": "Pending"
+    },
+    {
+      "job": "Backend Developer",
+      "status": "Interview Scheduled"
+    },
+    {
+      "job": "UI/UX Designer",
+      "status": "Rejected"
+    }
+  ],
+  "profiles": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "contact": "john@example.com",
+      "experience": "2 years",
+      "education": "B.Tech",
+      "skills": [
+        "Angular",
+        "JS"
+      ]
+    }
+  ],
+  "manageapplications": [
+    {
+      "status": "Interview Scheduled",
+      "id": 1,
+      "name": "Pradeep",
+      "job": "Developer",
+      "resume": "Resume_Link"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "status": "Interview Scheduled",
+      "job": "Backend Developer",
+      "resume": "Resume_Link"
+    }
+  ]
+}
